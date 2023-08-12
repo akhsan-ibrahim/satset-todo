@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical|center_horizontal"
+    android:padding="30dp"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/login_title_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="@string/login"
+        android:textColor="@color/green1"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        app:boxBackgroundColor="#00FFFFFF"
+        app:boxBackgroundMode="outline"
+        app:boxCornerRadiusBottomEnd="10dp"
+        app:boxCornerRadiusBottomStart="10dp"
+        app:boxCornerRadiusTopEnd="10dp"
+        app:boxCornerRadiusTopStart="10dp"
+        app:boxStrokeColor="@color/green1"
+        app:boxStrokeWidth="2dp"
+        app:endIconMode="clear_text"
+        app:startIconDrawable="@drawable/baseline_person_24"
+        app:startIconTint="@color/green1">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/login_activity_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="60dp"
+            android:ems="10"
+            android:hint="@string/username"
+            android:inputType="textPersonName"
+            android:textSize="18sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        app:boxBackgroundColor="#00FFFFFF"
+        app:boxBackgroundMode="outline"
+        app:boxCornerRadiusBottomEnd="10dp"
+        app:boxCornerRadiusBottomStart="10dp"
+        app:boxCornerRadiusTopEnd="10dp"
+        app:boxCornerRadiusTopStart="10dp"
+        app:boxStrokeColor="@color/green1"
+        app:boxStrokeWidth="2dp"
+        app:endIconMode="password_toggle"
+        app:startIconDrawable="@drawable/baseline_password_24"
+        app:startIconTint="@color/green1">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/login_activity_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="60dp"
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textSize="18sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/login_activity_btn_login"
+        android:layout_width="120dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/green1"
+        android:text="@string/login"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:cornerRadius="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Don't have an account?"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/login_activity_register_btn"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:text="@string/register"
+        android:textColor="@color/green1"
+        app:cornerRadius="20dp"
+        app:rippleColor="#00FFFFFF"
+        app:strokeColor="@color/green1"
+        app:strokeWidth="2dp" />
+
+</LinearLayout>

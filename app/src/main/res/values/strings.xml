@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Satset Todo</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="save">Save</string>
+    <string name="category_name">Category Name</string>
+    <string name="todo_title">Title</string>
+    <string name="todo_description">Description</string>
+    <string name="todo_date">Date</string>
+    <string name="todo_priority">Priority</string>
+    <string name="todo_high">High</string>
+    <string name="todo_medium">Medium</string>
+    <string name="todo_low">Low</string>
+    <string name="todo_category">Category</string>
+    <string name="todo_complete">Completed</string>
+
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+</resources>
